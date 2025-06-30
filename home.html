@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MSSC Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-dark">
+  <header>
+    <h1>MSSC Portal</h1>
+    <button id="logout-btn">Log Out</button>
+  </header>
+  <main>
+    <section class="link-grid">
+      <div class="link-card"><a href="https://example.com" target="_blank">Documentation</a></div>
+      <div class="link-card"><a href="https://app.example.com" target="_blank">Application</a></div>
+    </section>
+  </main>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js"></script>
+  <script type="module" src="firebase-config.js"></script>
+  <script type="module" src="auth.js"></script>
+</body>
+</html>
